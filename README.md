@@ -5,7 +5,7 @@
 State‑of‑the‑art medical studies proved that predicting CYP450 enzyme inhibitors is beneficial in the early stage of drug discovery. However, accurate machine learning-based (ML) in silico methods for predicting CYP450 inhibitors remains challenging. Here, we introduce GTransCYPs, an improved graph neural network (GNN) with a transformer mechanism for predicting CYP450 inhibitors. This model significantly enhances the discrimination between inhibitors and non-inhibitors for five major CYP450 isozymes: 1A2, 2C9, 2C19, 2D6, and 3A4. GTransCYPs learns information patterns from molecular graphs by aggregating node and edge representations using a transformer. The GTransCYPs model utilizes transformer convolution layers to process features, followed by a global attention-pooling technique to synthesize the graph-level information. This information is then fed through successive linear layers for final output generation. Experimental results demonstrate that the GTransCYPs model achieved high performance, outperforming other state-of-the-art methods in CYP450 prediction.</p>
 
 <p align="center">
- <img width="800" alt="image" src="https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00915-z/figures/1">
+ <img width="800" alt="image" src="Picture12.png">
 </p>
 
 ## Dependencies
